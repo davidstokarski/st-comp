@@ -948,9 +948,13 @@ juce::JUCEApplicationBase* createVideoApp() { return new VideoApp(); }
 
 }
 
+int runUseCaseVideos (int argc, char** argv);   // UseCases.cpp
+
 int main (int argc, char** argv)
 {
     juce::StringArray args (argv + 1, argc - 1);
+    if (args.contains ("--usecases"))
+        return runUseCaseVideos (argc, argv);
     if (args.contains ("--video"))
     {
         snapshotDir = juce::File (args[args.indexOf ("--video") + 1]);

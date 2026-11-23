@@ -34,5 +34,7 @@ Plugin-specific notes:
 - Verify: `StCompPluginTests` (curves and timing per style, lookahead, hold, nulls and latency per oversampling,
   channel modes, side chain, upward, stress, state, presets, multiview with the installed ST EQ AU),
   `StCompPluginTests --snapshot <dir>` (look at the PNGs), `auval -v aufx Stcm StAu`.
+  Website videos: `StCompPluginTests --usecases <dir> [scene ...]` (`tests/UseCases.cpp`, on the shell's
+  `st_shell/testing/st_video.h`): scenes vocal-level, drum-glue, deess.
 - Release: `scripts/release.sh`.
 - Anything reusable belongs in st-shell, not here.
