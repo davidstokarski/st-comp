@@ -96,3 +96,7 @@ notes, Wikipedia's [LA-2A Leveling Amplifier](https://en.wikipedia.org/wiki/LA-2
 on the [1176 all-buttons mode](https://www.sweetwater.com/insync/all-button-mode-universal-audio-1176-really-explosive-drum/).
 
 Inter typeface © The Inter Project Authors, SIL Open Font License.
+
+## Contributing
+
+See the shared [contributor notes](https://github.com/davidstokarski/st-shell/blob/main/CONTRIBUTING.md) in ST Shell. All PRs to `main` need approval from @davidstokarski.
